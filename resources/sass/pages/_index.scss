@@ -1,0 +1,30 @@
+.drinks{
+    color: $color-gold;
+}
+
+.sub-menu{
+    max-width: none;
+    background-color: $color-grey;
+    min-height: 100%;
+    opacity:0.4;
+}
+
+.meals{
+    position: relative;
+    bottom: 5rem;
+}
+
+.modal-content{
+    max-width: 60%;
+    position: relative;
+    left: 25%;
+}
+
+.modal-backdrop {
+    background-color: rgba(0,0,0,.0001) !important;
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+// .gallary{
+//     background-image: linear-gradient(
+//         to right bottom,
+//          rgba($color-primary-light, 0.8),
+//          rgba($color-primary-dark, 0.8),), 
+//           url('../../../public/images/dish_one2.jpg') no-repeat;
+//     background-size: cover;
+//     position: relative;
+// }
+.header {
+    height: 90vh;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba($color-primary-light, 0.8),
+         rgba($color-primary-dark, 0.8),), 
+          url('../../../public/images/giraffe.jpg');
+    background-size: cover;
+    background-position: top; 
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo{
+        height: 3.5rem;
+    }
+    
+    &__text-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+.header-reservation{
+    height: 40vh;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba($color-primary-light, 0.8),
+         rgba($color-primary-dark, 0.8),), 
+          url('../../../public/images/long-giraffe.jpg');
+    background-size: cover;
+    background-position: top; 
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo{
+        height: 3.5rem;
+    }
+    
+    &__text-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+.food2{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba($color-primary-light, 0.8),
+         rgba($color-primary-dark, 0.8),), 
+          url('../../../public/images/giraffe.jpg');
+    background-size: cover;
+    background-position: 0%; 
+    position: relative;
+
+}
+
+
+// .parallax { height: 200px; background-size:cover; background-size:cover; }
+
+// #img1 { background-image: url(https://unsplash.it/1200/600?image=684); }

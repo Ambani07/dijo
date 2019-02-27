@@ -1,0 +1,71 @@
+.form{
+
+    &-control{
+        font-size:1rem;
+        font-family: inherit;
+        color: inherit;
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        background-color: rgba($color-white, 0.5);
+        border:none;
+        border-bottom: 3px solid transparent;
+        display: block;
+        transition: all .3s;
+
+        &::-webkit-input-placeholder{
+            color: $color-grey-dark-2
+        }
+
+        &:focus{
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            border-bottom: 3px solid $color-gold;
+        }
+
+        &:focus:invalid{
+            border-bottom: 3px solid $color-primary;
+        }
+    }
+
+    &-label{
+        font-size: 1rem;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-top: .7rem;
+        display: block;
+        transition: all .3s;
+    }
+
+    &-control:placeholder-shown + &-label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+
+    &-book{
+        background-image: linear-gradient(105deg,
+        rgba($color-white, .9) 50%,
+        rgba($color-white, .9) 50%,
+        transparent 50%),
+        url('../../../public/images/dark.jpg');
+        background-size: cover;
+        border-radius: 3px;
+        box-shadow: 0 1.5 4rem rgba($color-black, .2);
+        height: 35rem;
+        
+    }
+
+    &-book__full{
+        background-image: linear-gradient(90deg,
+        rgba($color-white, .9) 50%,
+        rgba($color-white, .9) 50%,
+        transparent 50%),
+        url('../../../public/images/dark-2.jpg');
+        background-size: cover;
+        border-radius: 3px;
+        box-shadow: 0 1.5 4rem rgba($color-black, .2);
+        height: 50rem;
+        
+    }
+}
+
